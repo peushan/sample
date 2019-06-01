@@ -23,7 +23,7 @@ public class TestDataScenarios {
         scenario.put("KiwiSaveContribution", "8");
         scenario.put("PIRRate", "17.5");
         scenario.put("RiskProfile", "high");
-        scenario.put("ExpectedResult", "295655");
+        scenario.put("ExpectedResult", "558973");
         return scenario;
     }
 

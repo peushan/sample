@@ -25,7 +25,7 @@ public class BaseTest extends Base {
 
     {
         try {
-            browser = (String) ConfigPropertyRead.readproperty().get("browser");
+            browser = ConfigPropertyRead.readproperty().get("browser").toString();
             baseUrl = ConfigPropertyRead.readproperty().get("url").toString();
         } catch (IOException e) {
             e.printStackTrace();
